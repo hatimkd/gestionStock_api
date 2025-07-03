@@ -1,0 +1,35 @@
+# Ignore le dossier media (fichiers uploadés)
+media/
+
+# Ignorer les fichiers pyc (fichiers compilés Python)
+*.pyc
+__pycache__/
+
+# Environnement virtuel (à adapter selon le nom de ton env)
+venv/
+env/
+
+# Fichiers de logs
+*.log
+
+# Fichiers de base de données locales
+db.sqlite3
+
+# IDEs & éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers de migration Django (optionnel à versionner, mais souvent versionnés)
+# migrations/
+
+# Ignore fichiers statiques compilés si tu as un dossier staticfiles/
+staticfiles/
+
+# Node modules si tu as frontend
+node_modules/
